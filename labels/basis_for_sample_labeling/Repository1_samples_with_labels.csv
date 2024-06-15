@@ -1,6 +1,7 @@
 ,SAMPLE_ID,label
 2,Sample_0003,true_responder
 3,Sample_0004,responder_based_on_PFS
+5,Sample_0006,nonresponder_based_on_PFS
 8,Sample_0009,responder_based_on_SD
 10,Sample_0011,responder_based_on_PFS
 11,Sample_0012,nonresponder_based_on_SD
@@ -8,6 +9,7 @@
 13,Sample_0014,nonresponder_based_on_SD
 14,Sample_0015,true_responder
 15,Sample_0016,true_responder
+16,Sample_0017,nonresponder_based_on_PFS
 17,Sample_0018,true_nonresponder
 18,Sample_0019,true_responder
 19,Sample_0020,true_responder
@@ -58,7 +60,8 @@
 106,Sample_0107,nonresponder_based_on_SD
 107,Sample_0108,true_responder
 108,Sample_0109,true_responder
-110,Sample_0111,responder_based_on_SD
+109,Sample_0110,nonresponder_based_on_PFS
+110,Sample_0111,nonresponder_based_on_SD
 111,Sample_0112,true_responder
 113,Sample_0114,true_responder
 114,Sample_0115,nonresponder_based_on_SD
@@ -66,10 +69,12 @@
 116,Sample_0117,responder_based_on_PFS
 117,Sample_0118,true_responder
 118,Sample_0119,responder_based_on_PFS
+119,Sample_0120,nonresponder_based_on_PFS
 121,Sample_0122,responder_based_on_SD
 122,Sample_0123,true_nonresponder
 123,Sample_0124,true_nonresponder
-125,Sample_0126,responder_based_on_PFS
+124,Sample_0125,nonresponder_based_on_PFS
+125,Sample_0126,nonresponder_based_on_PFS
 127,Sample_0128,responder_based_on_SD
 130,Sample_0131,true_responder
 132,Sample_0133,nonresponder_based_on_SD
