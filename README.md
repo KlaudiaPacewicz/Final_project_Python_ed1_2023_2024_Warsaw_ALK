@@ -12,7 +12,7 @@ The project aims to discover genomic features extracted from whole genome sequen
 
 ### Methodology
 
-Clinical metadata and raw data from whole-genome sequencing of patients diagnosed with ovarian cancer were downloaded from 3 publicly available repositories collecting genomic and clinical data from oncology patients. A total of 255 samples were collected, for which the original IDs were anonymized.
+##### Clinical metadata and raw data from whole-genome sequencing of patients diagnosed with ovarian cancer were downloaded from 3 publicly available repositories collecting genomic and clinical data from oncology patients. A total of 255 samples were collected, for which the original IDs were anonymized.
 
 #### Genomic data processing:
 
@@ -28,6 +28,8 @@ The processed WGS data were used to extract 108 comprehensive genomic features. 
 All 108 genomic features were carefully analyzed for variance in all samples. For this purpose, the value of each feature was presented in a [histogram](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/data_preprocessing/genetic_data_preprocessing). Features that had zero variance were removed. Features defined by complex genomic changes divided into length bins were pooled to obtain greater variance. Ultimately, 82 features remained for further analyzes.
 
 #### Clinical features preprocessing:
+
+#### Sample labelling:
 
 ### Results
 
