@@ -11,5 +11,5 @@ where 1 == RESPONDER; 0 == NONRESPONDER.
 
 Exluded samples:
 
-samples treated with other treatments from repository 1
-samples marked as responder_based_on_SD and nonresponder_based_on_SD from repository 1
+* samples treated with other treatments from repository 1
+* samples marked as responder_based_on_SD and nonresponder_based_on_SD from repository 1
