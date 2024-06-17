@@ -1,4 +1,4 @@
-Manual selection of samples for model training and tetsing: 
+Manual selection of samples for model training and testing (excluding samples treated with other treatments from repository 1): 
 
 * **model training** - selection of samples with uncertain labels:
    * *responder_based_on_PFS* == 1
