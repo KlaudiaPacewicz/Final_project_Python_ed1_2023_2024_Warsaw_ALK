@@ -55,6 +55,13 @@ Finally, 4 sets of [labels](https://github.com/KlaudiaPacewicz/ALK_final_project
 
 Nine different [models](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/models) were tested using the logistic regression algorithm. In each model, different methods of labeling samples and genomic features were tested.  When evaluating each model, risk estimation was taken into account, with the most important model measure being recall for positive samples. After evaluating all approaches, model 4 was selected as the final model.
 
+The final logistic regression model was trained with 5-fold cross validation on samples with v1 labels. The average results of the basic metrics on the training model are as follows:
+
+| mean_roc_auc | mean_precision | mean_average_precision | mean_recall | mean f1 | mean balanced_accuracy | mean positive_likelihood_ratio |
+|----------|----------|----------|
+| 0.63    | 0.7   | 0.72  | 0.76 | 0.72 | 0.61 | 1.41
+
+
 The final model was saved as ' final_model_for_parpi_response_prediction' in the ['final_model'](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/final_model) folder. The final model was tested on [unlabeled samples](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/final_model/Model_test_on_blind_samples.ipynb) and compared to HRD status to evaluate the results.
 
 
