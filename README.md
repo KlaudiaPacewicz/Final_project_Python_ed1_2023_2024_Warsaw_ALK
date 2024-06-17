@@ -32,10 +32,13 @@ All 108 genomic features were carefully analyzed for variance in all samples. Fo
 
 Based on the processed clinical metadata, [4 output files](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/labels/basis_for_sample_labeling) were prepared on the basis of which various labels could be generated depending on the interpretation of clinical data:
   * Repository1_samples_with_labels.csv:
-      ** samples treated with platinum-based chemotherapy or PARPi having one of the following labels: *** true_responder, responder_based_on_PFS, responder_based_on_SD, true_nonresponder, nonresponder_based_on_PFS nonresponder_based_on_SD ***
-  * Repository1_test_samples_without_label.csv
-  * Repository2_samples_with_labels.csv
-  * Repository3_samples_with_labels.csv
+      * samples treated with platinum-based chemotherapy or PARPi having one of the following labels: *true_responder, responder_based_on_PFS, responder_based_on_SD, true_nonresponder,              nonresponder_based_on_PFS nonresponder_based_on_SD*
+  * Repository1_test_samples_without_label.csv:
+      * samples treated with other treatment
+  * Repository2_samples_with_labels.csv:
+     * pre-treated samples having one of the following labels: *possible_responder, possible_nonresponder*
+  * Repository3_samples_with_labels.csv:
+    * samples treated with platinum-based chemotherapy or PARPi having one of the following labels: *true_responder, responder_based_on_PFS, true_nonresponder*
 
 ## RESULTS
 
