@@ -8,7 +8,7 @@ Manual selection of samples for model training and testing (excluding samples tr
    * *possible_responder* == 1
    * *possible_nonresponder* == 0
  
-* **model testing** - selection of samples with true labels"
+* **model testing** - selection of samples with true labels:
    * *true_responder* == 1
    * *true_nonresponder* == 0
 
