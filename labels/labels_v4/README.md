@@ -1,11 +1,11 @@
 Data transformation for all available samples:
 
-true_responder == 1
-responder_based_on_PFS == 1
-true_nonresponder == 0
-nonresponder_based_on_PFS == 0
-possible_responder == 1
-possible_nonresponder == 0
+* *true_responder* == 1
+* *responder_based_on_PFS* == 1
+* *true_nonresponder* == 0
+* *nonresponder_based_on_PFS* == 0
+* *possible_responder* == 1
+* *possible_nonresponder* == 0
 
 where 1 == RESPONDER; 0 == NONRESPONDER.
 
