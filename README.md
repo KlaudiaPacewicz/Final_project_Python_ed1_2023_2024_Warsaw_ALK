@@ -7,18 +7,17 @@ In the evolving world of personalized medicine, the use of complete and extensiv
 The project aims to discover genomic features extracted from whole genome sequencing (WGS) data to identify patients likely to respond to PARP inhibitors (PARPi).
 
 
-## BIOLOGICAL EXPLANATION
-
-
 ## METHODOLOGY
 
 [Clinical metadata and raw data from whole-genome sequencing](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/original_input_data) of patients diagnosed with ovarian cancer were downloaded from 3 publicly available repositories collecting genomic and clinical data from oncology patients. A total of 255 samples were collected, for which the original IDs were anonymized.
 
 ### 1. Genomic data processing
 
-The raw WGS data were processed using the [cgp-wgs pipeline](https://github.com/cancerit/dockstore-cgpwgs), which enables the detection of all changes present in the cancer genome - from single nucleotide changes to complex genomic rearrangements, such as inversions, deletions, translocations, tandem duplications and copy number variations.
+The raw WGS data were processed using the [cgp-wgs pipeline](https://github.com/cancerit/dockstore-cgpwgs), which enables the detection of all changes present in the cancer genome - from single nucleotide changes to complex genomic rearrangements, such as inversions, deletions, translocations, tandem duplications and copy number variations. Raw data were succesfully processed for 247 samples.
 
 The processed WGS data were used to extract 108 comprehensive genomic features. ###tutaj dodac gdzie jest opis cech
+
+Additionaly, for 247 samples HRD score was calculated using [hrd pipeline](https://github.com/eyzhao/hrdetect-pipeline).
 
 ### 2. Genomic features preprocessing
 
@@ -26,7 +25,17 @@ All 108 genomic features were carefully analyzed for variance in all samples. Fo
 
 ### 4. Clinical metadata processing
 
-### 5. Clinical features preprocessing
+[Clinical metadata preprocessing](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/data_preprocessing/clinical_metadata_preprocessing) consisted of:
+* selection of patients treated with platinum-based chemotherapy and/or PARP inhibitors
+* calculation of the progression-free survival period (counted from the time of initiation of therapy until reported disease progression or recurrence)
+* the period during which the disease was stable (counted from the start of therapy to the last response recorded as 'stable disease')
+
+The clinical metadata processed in this way was used for further labeling of samples.
+
+### 5. Clinical features extraction
+
+[Clinical features](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/clinical_features) were extracted from the processed clinical metadata and used for correlation with genomic features. The clinical features include: patient's age, type of tumor (primary tumor or metastasis) or family history of cancer.
+
 
 ### 6. Sample labeling
 
