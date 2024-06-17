@@ -12,7 +12,7 @@ The project aims to discover genomic features extracted from whole genome sequen
 
 ## METHODOLOGY
 
-Clinical metadata and raw data from whole-genome sequencing of patients diagnosed with ovarian cancer were downloaded from 3 publicly available repositories collecting genomic and clinical data from oncology patients. A total of 255 samples were collected, for which the original IDs were anonymized.
+[Clinical metadata and raw data from whole-genome sequencing](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/original_input_data) of patients diagnosed with ovarian cancer were downloaded from 3 publicly available repositories collecting genomic and clinical data from oncology patients. A total of 255 samples were collected, for which the original IDs were anonymized.
 
 ### 1. Genomic data processing
 
