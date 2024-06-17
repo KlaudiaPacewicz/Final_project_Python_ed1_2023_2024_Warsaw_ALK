@@ -1,0 +1,109 @@
+genomc_features,feature_description
+aberrant_cell_fraction,tool: ASCAT; description: aberrant cell fraction (%)
+BRCA1/2_mut,"class: VARIANT; tool: CAVEMAN, PINDEL; description: detected pathogenic variant within BRCA1 or BRCA2 gene"
+cc2ca_vs_cc2ct,class: SBS; ratio of changes in cc>ca to changes in cc>ct
+ccne1_amp,class: CNV; description: CCNE1 gene amplification exceeding ploidy
+cnv_CNgt10_frac,class: CNV; tool: ASCAT; description: copy number gain - 10 events (%)
+cnv_CNloss_frac,class; CNV; tool: ASCAT; description: copy number loss event (%)
+cnv_CNlt5_frac,class: CNV; tool: ASCAT; description: copy number loss - 5 events (%)
+cnv_DEL_0_3500_sum_indel_DEL_len_inf,class: CNV + INDEL; tool: ASCAT + PINDEL; description: number of deletions length between 0 - 3500 bp + number of short deletions length more than 5 bp
+cnv_DEL_len_0_30,class: CNV; tool: ASCAT; description: number of deletions length between 0 - 30 bp 
+cnv_DEL_len_100000_inf,class: CNV; tool: ASCAT; description: number of deletions length higher than 100 000 bp
+cnv_DEL_len_30_3500,class: CNV; tool: ASCAT; description: number of deletions length between 30 - 3500 bp
+cnv_DEL_len_3500_100000,class: CNV; tool: ASCAT; description: number of deletions length between 3500 - 100 000 bp
+cnv_DIPLOID_len_0_30,class: CNV; tool: ASCAT; description: number of diploid segments length between 0 - 30 bp
+cnv_DIPLOID_len_30_500,class: CNV; tool: ASCAT; description: number of diploid segments length between 30 - 500 bp
+cnv_DIPLOID_len_500_100000,class: CNV; tool: ASCAT; description: number of diploid segments length between 500 - 100000 bp
+cnv_DIPLOID_len_100000_inf,class: CNV; tool: ASCAT; description: number of diploid segments length higher than 100 000 bp
+cnv_DUP_len_0_30,class: CNV; tool: ASCAT; description: number of duplicated segments length between 0 - 30 bp
+cnv_DUP_len_100_1000,class: CNV; tool: ASCAT; description: number of duplicated segments length between 100 - 1000 bp
+cnv_DUP_len_1000_30000,class: CNV; tool: ASCAT; description: number of duplicated segments length between 1000 - 30 000 bp
+cnv_DUP_len_30_100,class: CNV; tool: ASCAT; description: number of duplicated segments length between 30 - 100 bp
+cnv_DUP_len_30000_inf,class: CNV; tool: ASCAT; description: number of duplicated segments length higher than 30 000 bp
+cnv_evenCN_frac,class; CNV; tool: ASCAT; description: copy number loss or/and gain event (%)
+cnv_N_CNdipl,class: CNV; tool: ASCAT; description: total number of diploid segments
+cnv_N_CNgain,class; CNV; tool: ASCAT; description: total number of copy number gain event 
+cnv_N_CNloss,class; CNV; tool: ASCAT; description: total number of copy number loss event
+del_indel_ratio,class: INDEL; tool: PINDEL; description: ratio of all short deletions to all indel changes
+FBIs,class: FBI; tool: BRASS + ASCAT; description: number of inversion length < 300 bp with CNV occurring near to inversion (+/- 30 000 bp)
+FBIs_relaxed,class: FBI; tool: BRASS + ASCAT; description: number of inversion length < 30 000 bp with CNV (counted based on LogR values difference between + 50 kb and -50 kb regions)
+frac_cnv_DEL_len_0_30,class: CNV; tool: ASCAT; description: deletions length between 0 - 30 bp (%)
+frac_cnv_DEL_len_100000_inf,class: CNV; tool: ASCAT; description: deletions length higher than 3500 - 100 000 bp (%)
+frac_cnv_DEL_len_30_3500,class: CNV; tool: ASCAT; description: deletions length between 30 - 3500 bp (%)
+frac_cnv_DEL_len_3500_100000,class: CNV; tool: ASCAT; description: deletions length between 3500 - 100 000 bp (%)
+frac_cnv_DIPLOID_len_0_30,class: CNV; tool: ASCAT; description: diploid segments length between 0 - 30 bp (%)
+frac_cnv_DIPLOID_len_100000_inf,class: CNV; tool: ASCAT; description: diploid segments length higher than 100 000 bp (%)
+frac_cnv_DIPLOID_len_30_500,class: CNV; tool: ASCAT; description: diploid segments length between 30 - 500 bp  (%)
+frac_cnv_DIPLOID_len_500_100000,class: CNV; tool: ASCAT; description: diploid segments length between 500 - 100 000 bp  (%)
+frac_cnv_DUP_len_0_30,class: CNV; tool: ASCAT; description: duplications length between 0 - 30 bp (%)
+frac_cnv_DUP_len_100_1000,class: CNV; tool: ASCAT; description: duplications length between 100 - 1000 bp (%)
+frac_cnv_DUP_len_1000_30000,class: CNV; tool: ASCAT; description: duplications length between 100 - 30 000 bp (%)
+frac_cnv_DUP_len_30_100,class: CNV; tool: ASCAT; description: duplications length between 30 - 100 bp (%)
+frac_cnv_DUP_len_30000_inf,class: CNV; tool: ASCAT; description: duplications length higher than 30 000 bp (%)
+frac_sv_del_0-30,class: SV; tool: BRASS; description: deletions length 0 - 30 bp (%)
+frac_sv_del_100000+,class: SV; tool: BRASS; description: deletions length higher than 100 000 bp (%)
+frac_sv_del_30-3500,class: SV; tool: BRASS; description: deletions length 30 - 3500 bp (%)
+frac_sv_del_3500-100000,class: SV; tool: BRASS; description: deletions length 3500 - 100 000 bp (%)
+frac_sv_del_frac,class: SV; tool: BRASS; description: all deletions (%)
+frac_sv_dup_0_30,class: SV; tool: BRASS; description: duplication length between 0 - 30 bp (%)
+frac_sv_dup_100-1000,class: SV; tool: BRASS; description: duplication length between 100 - 1000 bp(%)
+frac_sv_dup_1000_30000,class: SV; tool: BRASS; description: duplication length between 1000 - 30 000 bp(%)
+frac_sv_dup_30-100,class: SV; tool: BRASS; description: duplication length between 30 - 100 bp(%)
+frac_sv_dup_30000+,class: SV; tool: BRASS; description: duplication length higher than 30 000 bp(%)
+indel_DEL_len_1,class: INDEL; tool: PINDEL; description: number of deletions length 1 bp
+indel_DEL_len_2,class: INDEL; tool: PINDEL; description: number of deletions length 2 bp
+indel_DEL_len_3,class: INDEL; tool: PINDEL; description: number of deletions length 3 bp
+indel_DEL_len_4,class: INDEL; tool: PINDEL; description: number of deletions length 4 bp
+indel_DEL_len_inf,class: INDEL; tool: PINDEL; description: number of deletions length more than 5 bp
+indel_DEL_mh,class: INDEL; tool: PINDEL; description: number of deletions with microhomology
+indel_DEL_noMHstatus,class: INDEL; tool: PINDEL; description: number of deletions without microhomology
+indel_DEL_rep,class: INDEL; tool: PINDEL; description: number of deletions at repeated sites
+indel_INS_len_1,class: INDEL; tool: PINDEL; description: number of insertions length 1 bp
+indel_INS_len_2,class: INDEL; tool: PINDEL; description: number of insertions length 2 bp
+indel_INS_len_3,class: INDEL; tool: PINDEL; description: number of insertions length 3 bp
+indel_INS_len_4,class: INDEL; tool: PINDEL; description: number of insertions length 4 bp
+indel_INS_len_inf,class: INDEL; tool: PINDEL; description: number of insertions length more than 5 bp
+indel_INS_len_inf_sum_cnv_DUP_0_1000,class: INDEL + CNV; tool: PINDEL + ASCAT; description: number of short insertions length more than 5 bp + number of duplications length between 0 - 1000 bp
+indel_INS_len_inf_sum_cnv_DUP_0_30000,class: INDEL + CNV; tool: ASCAT + PINDEL; description: number of short insertions length more than 5 bp + number of duplications length between 0 - 30 000 bp
+indel_n_del,class: INDEL; tool: PINDEL; description: total number of short deletions
+indel_n_ins,class: INDEL; tool: PINDEL; description: total number of short insertions
+indel_ratio,class: INDEL; tool: PINDEL; description: insertion/deletion ratio
+ins_indel_ratio,class: INDEL; tool: PINDEL; description: ratio of all short insertions to all indel changes
+Interstitial_AI,class: AI; tool: ASCAT; description: number of regions characterized by telomeric allelic imbalance that excess the centromere
+Interstitial_LOH,class: LOH; tool: ASCAT; description: number of loss that excess the centromere
+LOH_cnt,class: LOH; tool: ASCAT; description: total number of loss of heterozygosity within the whole genome
+LST_cnt,class: LST; tool: ASCAT; description: total number of large-scale state transitions within the whole genome
+other_HRR_gene_mutation_somatic,"class: VARIANT; tool: CAVEMAN, PINDEL; description: detected pathogenic variant within HRR-related genes (ATM, ATR, BARD1, BRIP1, CHEK1, CHEK2, CDK12, PALB2, FANCA, FANCL, RAD51B, RAD51C, RAD51D, MRE11A, NBN)"
+percent_all_cc2ca,class: SBS; description: percentage ratio of all cc>ca changes to all nn>nn changes
+percent_all_cc2ct,class: SBS; description: percentage ratio of all cc>ct changes to all nn>nn changes
+Ploidy,tool: ACSAT; description: tumor ploidy
+resistant_ccne1_over_6,class: CNV; description: CCNE1 gene amplification above 6 copies
+SBS31,class: SBS; description: percentage ratio of SBS31 to all other single base substitutions
+sv_del_0-30,class: SV; tool: BRASS; description: number of deletions length between 0 - 30 bp
+sv_del_100000+,class: SV; tool: BRASS; description: number of deletions length higher than 100 000 bp
+sv_del_30-3500,class: SV; tool: BRASS; description: number of deletions length between 30 - 3500 bp
+sv_del_3500-100000,class: SV; tool: BRASS; description: number of deletions length between 3500 - 100 000 bp
+sv_del_frac,class: SV; tool: BRASS; description: the ratio of deletions to other SV (%)
+sv_dup_0_30,class: SV; tool: BRASS; description: number od duplications length between 0 - 30 bp
+sv_dup_100-1000,class: SV; tool: BRASS; description: number od duplications length between 100 - 1000 bp
+sv_dup_1000_30000,class: SV; tool: BRASS; description: number od duplications length lbetween 1000 - 30 000 bp
+sv_dup_30-100,class: SV; tool: BRASS; description: number od duplications length between 30 - 100 bp
+sv_dup_30000+,class: SV; tool: BRASS; description: number od duplications length higher than 30 000 bp
+sv_inv_frac,class: SV; tool: BRASS; description: the ratio of inversions to other SV (%)
+sv_microhom_deletion_mean,class: SV; tool: BRASS; description: mean size of microhomology with deletions
+sv_microhom_inversion_mean,class: SV; tool: BRASS; description: mean size of microhomology with inversions
+sv_microhom_tandem-duplication_mean,class: SV; tool: BRASS; description: mean size of microhomology with tandem duplications
+sv_microhom_translocation_mean,class: SV; tool: BRASS; description: mean size of microhomology with translocations
+sv_n_all_sv,class: SV; tool: BRASS; description: number of total SV
+sv_n_del,class: SV; tool: BRASS; description: number of deletions
+sv_n_inv,class: SV; tool: BRASS; description: number of inversions
+sv_n_svclass_stdev,class: SV; tool: BRASS; description: standard deviation between number of particular SV class
+sv_n_svclass_variance,class: SV; tool: BRASS; description: total number of SV in a particular SV class
+sv_n_tadem_dup,class: SV; tool: BRASS; description: number of tandem duplications
+sv_n_trans,class: SV; tool: BRASS; description: number of translocations
+sv_tadem_dup_frac,class: SV; tool: BRASS; description: the ratio of tandem duplications to other SV (%)
+sv_trans_frac,class: SV; tool: BRASS; description: the ratio of translocations to other SV (%)
+Telomeric_AI,class: AI; tool: ASCAT; description: number of regions characterized by telomeric allelic imbalance
+Telomeric_LOH,class: LOH; tool: ASCAT; description: number of loss at the end of telomeres
+Whole_chr_AI,class: AI; tool: ASCAT; description: number of regions characterized by telomeric allelic imbalance encompassing whole chromosome
+Whole_chr_LOH,class: LOH; tool: ASCAT; description: number of loss encompassing whole chromosome
