@@ -1,4 +1,4 @@
-# ALK_final_project
+# ALK_final_project - identification of genetic biomarkers of sensitivity to platinum-based chemotherapy and PARP inhibitors in patients diagnosed with ovarian cancer.
 
 ## AIM OF THE PROJECT
 
