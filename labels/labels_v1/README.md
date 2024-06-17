@@ -7,3 +7,5 @@ Data transformation for all available samples (excluding samples treated with ot
    * *nonresponder_based_on_SD* == 0
    * *possible_responder* == 1
    * *possible_nonresponder* == 0
+
+where 1 == RESPONDER; 0 == NONRESPONDER.
