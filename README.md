@@ -58,7 +58,7 @@ Nine different [models](https://github.com/KlaudiaPacewicz/ALK_final_project/tre
 The final logistic regression model was trained with 5-fold cross validation on samples with v1 labels. The average results of the basic metrics on the training model are as follows:
 
 | mean_roc_auc | mean_precision | mean_average_precision | mean_recall | mean f1 | mean balanced_accuracy | mean positive_likelihood_ratio |
-|----------|----------|----------|
+|----------|----------|----------|----------|----------|----------|----------|
 | 0.63    | 0.7   | 0.72  | 0.76 | 0.72 | 0.61 | 1.41
 
 
