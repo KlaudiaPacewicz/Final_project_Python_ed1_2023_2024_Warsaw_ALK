@@ -15,7 +15,7 @@ The project aims to discover genomic features extracted from whole genome sequen
 
 The raw WGS data were processed using the [cgp-wgs pipeline](https://github.com/cancerit/dockstore-cgpwgs), which enables the detection of all changes present in the cancer genome - from single nucleotide changes to complex genomic rearrangements, such as inversions, deletions, translocations, tandem duplications and copy number variations. Raw data were succesfully processed for 247 samples.
 
-The processed WGS data were used to extract 108 comprehensive genomic features. ###tutaj dodac gdzie jest opis cech
+The processed WGS data were used to extract 108 comprehensive genomic features - complete description for all features can be found [here](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/original_input_data/genomic_features/genomic_features_description.csv).
 
 Additionaly, for 247 samples HRD score was calculated using [hrd pipeline](https://github.com/eyzhao/hrdetect-pipeline).
 
