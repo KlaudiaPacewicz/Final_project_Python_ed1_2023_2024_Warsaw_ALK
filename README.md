@@ -62,6 +62,13 @@ The final logistic regression model was trained with 5-fold cross validation on 
 | 0.63    | 0.7   | 0.72  | 0.76 | 0.72 | 0.61 | 1.41
 
 
+The results on the test set (for label == 1) are as follows:
+
+| roc_auc | accuracy | precision | recall | f1 | balanced_accuracy |
+|----------|----------|----------|----------|----------|----------|
+| 0.72    | 0.73   | 0.77  | 0.77 | 0.77 | 0.72 | 
+
+
 The final model was saved as ' final_model_for_parpi_response_prediction' in the ['final_model'](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/final_model) folder. The final model was tested on [unlabeled samples](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/final_model/Model_test_on_blind_samples.ipynb) and compared to HRD status to evaluate the results.
 
 
