@@ -75,5 +75,12 @@ The features that discriminate between positive and negative samples include fea
 * short deletions
 * global loss of heterozygosity
 
-The final model was saved as ' final_model_for_parpi_response_prediction' in the ['final_model'](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/final_model) folder. The final model was tested on [unlabeled samples](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/final_model/Model_test_on_blind_samples.ipynb) and compared to HRD status to evaluate the results.
+To verify the usefulness of the current model, results were compared to a [model](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/models/model_logistic_regression_v8) utilizing features from the only FDA-approved companion diagnostics test, [MyChoice CDx HRD](https://myriad.com/genetic-tests/mychoicecdx-tumor-test/). The results on test data for the model using MyChoice features (for label == 1) are as follows:
+
+| roc_auc | accuracy | precision | recall | f1 |
+|----------|----------|----------|----------|----------|
+| 0.5    | 0.86   | 0.86  | 1.0 | 0.93 |
+
+
+The final model was saved as ' final_model_for_parpi_response_prediction' in the ['final_model'](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/final_model) folder. The final model was tested on [unlabeled samples](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/final_model/Model_test_on_blind_samples.ipynb) and compared to HRD status to further results evaluation.
 
