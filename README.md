@@ -28,7 +28,7 @@ All 108 genomic features were carefully analyzed for variance in all samples. Fo
 
 ### 5. Clinical features preprocessing
 
-### 6. Sample labelling
+### 6. Sample labeling
 
 Based on the processed clinical metadata, [4 output files](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/labels/basis_for_sample_labeling) were prepared on the basis of which various labels could be generated depending on the interpretation of clinical data:
   * Repository1_samples_with_labels.csv:
@@ -39,6 +39,8 @@ Based on the processed clinical metadata, [4 output files](https://github.com/Kl
      * pre-treated samples having one of the following labels: *possible_responder, possible_nonresponder*
   * Repository3_samples_with_labels.csv:
     * samples treated with platinum-based chemotherapy or PARPi having one of the following labels: *true_responder, responder_based_on_PFS, true_nonresponder*
+
+Finally, 4 sets of [labels](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/labels) were prepared
 
 ## RESULTS
 
