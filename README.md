@@ -20,15 +20,22 @@ The raw WGS data were processed using the [cgp-wgs pipeline](https://github.com/
 
 The processed WGS data were used to extract 108 comprehensive genomic features. ###tutaj dodac gdzie jest opis cech
 
-#### 2. Genomic features preprocessing
+### 2. Genomic features preprocessing
 
 All 108 genomic features were carefully analyzed for variance in all samples. For this purpose, the value of each feature was presented in a [histogram](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/data_preprocessing/genetic_data_preprocessing). Features that had zero variance were removed. Features defined by complex genomic changes divided into length bins were pooled to obtain greater variance. Ultimately, 82 features remained for further analyzes.
 
-#### 4. Clinical metadata processing
+### 4. Clinical metadata processing
 
-#### 5. Clinical features preprocessing
+### 5. Clinical features preprocessing
 
-#### 6. Sample labelling
+### 6. Sample labelling
+
+Based on the processed clinical metadata, [4 output files](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/labels/basis_for_sample_labeling) were prepared on the basis of which various labels could be generated depending on the interpretation of clinical data:
+  * Repository1_samples_with_labels.csv:
+      ** 
+  * Repository1_test_samples_without_label.csv
+  * Repository2_samples_with_labels.csv
+  * Repository3_samples_with_labels.csv
 
 ## RESULTS
 
