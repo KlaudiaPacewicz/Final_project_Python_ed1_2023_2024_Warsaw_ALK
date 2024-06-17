@@ -68,10 +68,12 @@ The results on the test set (for label == 1) are as follows:
 |----------|----------|----------|----------|----------|----------|
 | 0.72    | 0.73   | 0.77  | 0.77 | 0.77 | 0.72 | 
 
+The features that discriminate between positive and negative samples include features that have a biological justification and have already been supported by scientific evidence as biomarkers of sensitivity to PARP inhibitors:
+
+* mutation in *BRCA1/2* genes
+* *CCNE1* gene amplification
+* short deletions
+* global loss of heterozygosity
 
 The final model was saved as ' final_model_for_parpi_response_prediction' in the ['final_model'](https://github.com/KlaudiaPacewicz/ALK_final_project/tree/main/final_model) folder. The final model was tested on [unlabeled samples](https://github.com/KlaudiaPacewicz/ALK_final_project/blob/main/final_model/Model_test_on_blind_samples.ipynb) and compared to HRD status to evaluate the results.
-
-
-## CONLCUSIONS
-
 
